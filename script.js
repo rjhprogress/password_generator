@@ -59,32 +59,7 @@ var miscChar = '!@#$%^&*()+-=' + '!@#$%^&*()+-=';
         return password += '$' + password + '@' + password;
     }
 
-   
 
-
-
-
-/* Beginning of Number Choice Output "If" statement
-if (userChooseNumbers) {
-  return '0123456789';
- }
-//End of Number Choice Output "If" Statment
-
-if (userChooseLetters) {
-  return 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-}
-
-if (userChooseCharacters) {
-  return '!@#$%^&*()_+-=';
-}
-
-if (usermultiChoice) {
-  return "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=";
-
-}
-
-
-End of Function  */
 
 }
 
