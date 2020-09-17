@@ -28,7 +28,7 @@ var numbers = confirm ('Do you want numbers in your password?');
 var password = Math.floor(Math.random() * 128) + 1;
 
 //outputing random password number 
-return password += "pwd";
+return password += "pwd" + password;
     }
 //Ending "if" statement for user's who select numbers
 
@@ -43,7 +43,7 @@ return password += "pwd";
     
     var password = char[Math.floor(Math.random() * char.length)];
 
-        return password += "pwd" + password;
+        return password += "pwd" + password + 'admin';
     }
 //End statement for user's who select letters
 
@@ -56,7 +56,7 @@ var miscChar = '!@#$%^&*()+-=' + '!@#$%^&*()+-=';
     if(miscChar) {
         var password = miscChar[Math.floor(Math.random() * miscChar.length)];
 
-        return password += '$' + password + '@' + password;
+        return password += '$' + password + '@' + password + '*' + '!' + password;
     }
 
 
