@@ -15,51 +15,37 @@ generateBtn.addEventListener("click", writePassword);
 
 
 //Creating generatePassword method
+
 function generatePassword () {
 
+var password = Math.random ();
 
-//First User Prompt Confirms Numbers
-var numbers = confirm ('Do you want numbers in your password?');
- 
-
-//Beginning "if" statement for user's who select numbers 
-    if(numbers) {
-//Creating random numbers up to 128    
-var password = Math.floor(Math.random() * 128) + 1;
-
-//outputing random password number 
-return password += "pwd" + password;
-    }
-//Ending "if" statement for user's who select numbers
+return password;
 
 
 
-//Second User Prompt Confirms Letters
- var letters = confirm ('Do you want letters in your password?');
-
- //Beginning "if" statement for user's who select letters
- var char = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-     if(letters) {
-    
-    var password = char[Math.floor(Math.random() * char.length)];
-
-        return password += "pwd" + password + 'admin';
-    }
-//End statement for user's who select letters
 
 
-//Third User Prompt Confirms Misc Characters
-var miscChar = confirm ('Do you want Special Characters in your password?');
+/* Beginning of Number Choice Output "If" statement
+if (userChooseNumbers) {
+  return '0123456789';
+ }
+//End of Number Choice Output "If" Statment
+
+if (userChooseLetters) {
+  return 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+}
+
+if (userChooseCharacters) {
+  return '!@#$%^&*()_+-=';
+}
+
+if (usermultiChoice) {
+  return "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+-=";
+}
 
 
-var miscChar = '!@#$%^&*()+-=' + '!@#$%^&*()+-=';
-    if(miscChar) {
-        var password = miscChar[Math.floor(Math.random() * miscChar.length)];
-
-        return password += '$' + password + '@' + password + '*' + '!' + password;
-    }
-
-
+End of Function  */
 
 }
 
