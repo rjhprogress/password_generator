@@ -15,3 +15,8 @@ Password generator prompts character types such as uppercase, lowercase, numeric
 values for your password. Each password rendered will be at least 8 characters long. 
 
 
+Copyright (C) 2011 - 2020 Olivier Biot
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated document
+
